@@ -1,5 +1,7 @@
 ### Carpetas y ficheros de compilados
 
+out
+out/**/*
 target
 bin
 build
