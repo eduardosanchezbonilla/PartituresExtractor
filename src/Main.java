@@ -14,6 +14,7 @@ public class Main {
     //private static final String ORIGIN_FOLDER = "C:\\Users\\eduar\\OneDrive\\Escritorio\\Temporal\\2. REPERTORIO NAVIDAD";
     //private static final String DESTINATION_FOLDER = "C:\\Users\\eduar\\OneDrive\\Escritorio\\Temporal\\7. PARTITURAS POR VOCES NAVIDAD";
 
+
     public static void main(String[] args) throws IOException {
         // Cambia esta ruta al directorio que contiene las partituras en tu computadora
         Path partiturasDirectorio = Paths.get(ORIGIN_FOLDER);
