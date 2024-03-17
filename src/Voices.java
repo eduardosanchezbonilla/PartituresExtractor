@@ -65,7 +65,7 @@ public class Voices {
     private static final FiltersVoice PRIMERA_TROMPETA_SIB_A = new FiltersVoice("1TROMPETA(SIB)(A)",
             "/1TROMPETA",
             List.of("1TROMPE"),
-            List.of("DO","GRANDE","(B")
+            List.of("DO","GRANDE","(B", "ADAPTADA")
     );
     private static final FiltersVoice PRIMERA_TROMPETA_SIB_B = new FiltersVoice("1TROMPETA(SIB)(B)",
             "/1TROMPETA",
@@ -170,16 +170,31 @@ public class Voices {
     private static final FiltersVoice BOMBARDINO_DO_FA_A = new FiltersVoice("BOMBARDINO(DO-FA)(A)",
             "/BOMBARDINO",
             List.of("BOMBARDINO","DO","FA"),
-            List.of("GRANDE","SI","SOL","(B")
+            List.of("GRANDE","SI","SOL","(B","(JC")
     );
     private static final FiltersVoice BOMBARDINO_DO_FA_B = new FiltersVoice("BOMBARDINO(DO-FA)(B)",
             "/BOMBARDINO",
             List.of("BOMBARDINO","DO","FA"),
-            List.of("GRANDE","SI","SOL","(A")
+            List.of("GRANDE","SI","SOL","(A","(JC")
     );
     private static final FiltersVoice BOMBARDINO_DO_FA = new FiltersVoice("BOMBARDINO(DO-FA)",
             "/BOMBARDINO",
             List.of("BOMBARDINO","DO","FA"),
+            List.of("GRANDE","SI","SOL","(JC")
+    );
+    private static final FiltersVoice BOMBARDINO_DO_FA_A_JC = new FiltersVoice("BOMBARDINO(DO-FA)(JC)(A)",
+            "/BOMBARDINO",
+            List.of("BOMBARDINO","DO","FA","(JC"),
+            List.of("GRANDE","SI","SOL","(B")
+    );
+    private static final FiltersVoice BOMBARDINO_DO_FA_B_JC = new FiltersVoice("BOMBARDINO(DO-FA)(JC)(B)",
+            "/BOMBARDINO",
+            List.of("BOMBARDINO","DO","FA","(JC"),
+            List.of("GRANDE","SI","SOL","(A")
+    );
+    private static final FiltersVoice BOMBARDINO_DO_FA_JC = new FiltersVoice("BOMBARDINO(DO-FA)(JC)",
+            "/BOMBARDINO",
+            List.of("BOMBARDINO","DO","FA","(JC"),
             List.of("GRANDE","SI","SOL")
     );
     private static final FiltersVoice BOMBARDINO_SI_FA_A = new FiltersVoice("BOMBARDINO(SI-FA)(A)",
@@ -355,6 +370,9 @@ public class Voices {
             BOMBARDINO_DO_FA_A,
             BOMBARDINO_DO_FA_B,
             BOMBARDINO_DO_FA,
+            BOMBARDINO_DO_FA_A_JC,
+            BOMBARDINO_DO_FA_B_JC,
+            BOMBARDINO_DO_FA_JC,
             BOMBARDINO_SI_FA_A,
             BOMBARDINO_SI_FA_B,
             BOMBARDINO_SI_FA,
